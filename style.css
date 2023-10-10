@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 634px;
+  height: 797px;
+  border-radius: 15px;
+  background: #E6E6E6;
+}
+
+.input {
+  display: flex;
+  width: 519px;
+  height: 66px;
+}
+
+.input_field {
+  border-radius: 10px 0 0 10px;
+  background: #FFFFFF;
+  border: none;
+  width: 360px;
+  height: 65px;
+  padding-left: 15px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input_btn {
+  border-radius: 0 10px 10px 0;
+  background: #FBCC28;
+  border: none;
+  width: 160px;
+  height: 65px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.list {
+  display: flex;
+  overflow-x: auto;
+  margin: 15px 0 0 0;
+  padding: 0 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  list-style: none;
+  width: 520px;
+  padding-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  width: 474px;
+  min-height: 85px;
+  border-radius: 10px;
+  background: #FFEBEB;
+  margin: 15px 0 0 0;
+}
+
+.checkbox_lbl {
+  display: flex;
+  overflow-x: auto;
+  flex-basis: 400px;
+  align-items: center;
+}
+
+.img_lbl {
+  display: flex;
+  flex-basis: 85px;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox_lbl:hover {
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.prg {
+  width: 400px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+}
+
+.img {
+  width: 29px;
+  height: 32px;
+  flex-shrink: 0;
+}
